@@ -1,0 +1,423 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Heebo", sans-serif ;
+    direction: rtl;
+    color: #3A3A3A;  
+}
+h2{
+    font-size: 32px;
+    font-weight: 900;
+}
+h3{
+    font-size: 28px;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+
+/* תפריט ניווט ראשי */
+
+
+.main-menu{
+    position: fixed; 
+    background-color: white;
+    height: 70px;
+    border-bottom: #3a3a3a3b 1px solid;
+    left: 0;
+    right: 0;
+
+}
+.responsive-nav{
+    display: flex;
+    justify-content: space-around;
+      
+}
+
+.navbar-links{
+margin-top: 10px;
+margin-right: 100px;
+
+}
+
+.aNav{
+    font: "Heebo", sans-serif ;
+    text-decoration: none;
+    font-size: 25px;
+    color: #3A3A3A;
+    padding: 10px;
+   
+   }
+
+ .aNav:hover{
+    font-size: 27px;
+ }
+ .aNav:visited{
+    color: rgb(157, 62, 157);
+ }
+
+nav{
+    display: flex;   
+}
+
+input[type="checkbox"] {
+    display: none;
+  }
+  
+  #hamburger {
+    display: none;
+    font-size: 24px;
+    color: black;
+    padding: 16px;
+    text-align: right;
+    cursor: pointer;
+  }
+  
+  #saltire {
+    display: none;
+    font-size: 24px;
+    color: black;
+    padding: 16px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+
+   #name{
+    margin-top: 15px;
+    padding-top: 0;
+    padding-left: 15px;
+    direction: ltr; 
+    font-family: "Satisfy", cursive;
+    font-weight: 600;
+    font-size: 25px;
+    
+   
+
+
+}
+
+   .ImgeErea{
+  display: flex;
+
+  
+}
+
+.ImgeErea img{
+    direction: ltr;
+    margin-top:10px;
+    width: 40px;
+    height: 50px;
+    border-radius: 100px;
+}
+
+
+
+
+/* כותרת ראשית */
+.heroSection h1{
+    font-size: 80px;
+    font-weight: 900;
+    margin: 0;
+}
+.heroSection p{
+    font-size: 18px;
+    padding: 3px;
+}
+.heroSection{
+  
+    text-align: center;
+    background-image: url(../images/header-background.png);
+    padding: 70px 0;
+    background-size: cover;
+    background-position: center, center;
+    background-repeat: no-repeat;
+    background-color: #13E8F163;
+    background-blend-mode: multiply;
+    
+       
+  }
+
+/* אייקונים */
+.iconsGirdle{ 
+    display: flex;
+    height: 100px;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row-reverse;
+    border-bottom:#00000029 solid 3px;
+    column-gap: 10px;
+}
+
+/* קצת עלי */
+.aboutMe{
+   padding: 70px 0; 
+text-align: center;
+}
+
+.resumeLink{ 
+    display: block;
+   text-decoration: none;
+   background-color: #1AE0EC;
+   font-family: "Heebo", sans-serif ;
+   font-size: 20px;
+   font-weight: bold;
+   border-radius: 25px;
+   margin: 10px auto;
+   width: 260px;
+   height: 40px;
+   padding:5px 35px;
+   color: #3A3A3A;
+}
+
+/* עבודות נבחרות */
+.projectArea{
+background-color:#F6F6F6;
+text-align: center;
+padding: 50px;
+padding-top: 65px;
+}
+
+.projectContainer{
+    display: flex;
+    flex-wrap: wrap;
+   column-gap: 20px;
+   row-gap: 20px;
+   justify-content: center;
+   margin: 0 auto;
+ 
+}
+#hereAnow{
+    justify-content: center;
+    align-items:center;
+    flex-wrap: wrap;
+    column-gap:40px;
+    background-color: white;
+    height: 518px;
+    width:405px;
+    box-shadow: inset 0 0 6px #00000029;
+    border-radius: 20px;
+    
+}
+.galleryImg{
+    height: 200px;
+     width: 400px; 
+     border-radius: 20px 20px 0 0;
+}
+
+#hereAnow>p{
+    font-size: 16px;
+    padding: 5px;
+ 
+}
+
+.projectIcon{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    margin-bottom: 5px;
+
+}
+.projIconImg{
+    width: 25px;
+    height: 25px;
+    padding-bottom: 10px ;
+}
+   
+.projectLink{
+    background-color: #1AE0EC;
+   font-family: "Heebo", sans-serif ;
+   font-size: 20px;
+   font-weight: bold;
+   border-radius: 25px;
+   width: 260px;
+   height: 40px;
+   padding:5px 35px;
+   text-decoration: none;
+   color: #3A3A3A;
+   
+}
+
+/* טופס יצירת קשר */
+.bg-overaly{
+/*     
+    width: 100%; */
+    height: 900px;
+    display: flex;
+    background-color: #3A3A3A;
+    justify-content: center;
+  }
+
+.contactBGimg{
+   background-image: url(../images/envalop.png);
+   width: 700px;
+   /* height: 671px; */
+   background-repeat: no-repeat;
+   background-position: auto;
+   margin-left: 0;
+  
+
+}
+
+.contactForm{
+    color: #F6F6F6;
+      padding: 10px; 
+      padding-top: 55px;
+}
+.contactForm h2{
+    font-size: 50px;
+}
+.contactForm p{
+    font-size: 18px;
+}
+
+.contactForm input{
+    width: 450px;
+    height: 30px;
+    border-bottom: #1AE0EC 4px solid;
+
+}
+.contactForm button{
+    background-color: #1AE0EC;
+    width: 100px;
+    height: 30px;
+    font-family:"Heebo", sans-serif ; 
+    font-weight: 700;
+    border-radius: 30px;
+    border: none;
+}
+
+/* דרכי התקשרות */
+.contactIconContainer{
+    /* width: 100%; */
+    height: 150px;
+    padding: 20px 0;
+    background-color: #1AE0EC;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row-reverse;
+    column-gap: 60px;
+}
+
+.IconC{
+   
+    text-align: center;
+}
+.contactImgLink{
+    width: 40px;
+    height: 40px;
+}
+
+
+/* זכויות */
+.copyrightBar{
+    background: #222;
+    color: #1AE0EC;
+    height: 40px;
+    margin-bottom: 0 ;
+   
+}
+.copy{
+    float: right;
+    padding-right: 10px;
+ 
+}
+.bottomBarName{
+    text-align: left;
+    float: left;
+    padding-left: 10px;
+}
+
+
+
+
+
+/* רספונסיביות */
+
+@media (min-width:1370px) {
+.projectContainer{
+    width: 1256px;
+    height: 1056px;
+    align-items: center;}
+
+.projectArea{
+    align-items: center;}   }
+
+
+@media (max-width: 1200px) {
+    .contactBGimg{
+        display: none;  }    }
+
+ 
+
+@media (max-width: 1000px) {
+  
+    #hamburger{
+        display: block;
+        position: absolute;
+        right: 10px;     }
+
+    input[type='checkbox']:checked ~ .navbar-links{
+        display: block;
+        position: absolute;
+        right: 40px; }
+
+   input[type="checkbox"]:checked ~ #saltire {
+    display: block;
+    position: absolute;
+     right: 10px;
+    animation: 1s alternate saltireAnitmation;   }
+
+   input[type="checkbox"]:checked ~ #hamburger {
+   display: none; }
+
+    nav{
+        flex-direction: column;
+        padding-top:0 ;
+        background-color: #F6F6F6;    }
+
+    .navbar-links{
+        display: none;
+        margin-right: 0; }    }
+
+
+@media(max-width:800px){
+    .contactImgLink{
+        width: 20px;
+        height: 20px;  }
+
+    .copy{
+        width: 30%; }       }
+
+
+@media screen and (max-width:678px) {
+ 
+  .heroSection>h1{
+        font-size: 60px; } 
+
+  .iconsGirdle{
+        height: 250px;}
+
+   .copy{ width: 60%;} 
+
+        .contactIconContainer{
+            height: auto; }      }
+
+@media screen and (max-width:500px) {
+    .contactForm input{
+        width: 330px;}
+
+        #hereAnow{
+            height: 475px; }
+    .galleryImg{
+            height: 200px;
+             width: 280px; }    }

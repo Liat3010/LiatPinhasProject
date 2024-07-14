@@ -1,0 +1,232 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  
+    font-family: "Heebo", sans-serif ;
+    direction: rtl;
+    color: #3A3A3A;  
+}
+
+
+/* תפריט ניווט ראשי */
+
+
+.main-menu{
+    position: fixed; 
+    background-color: white;
+    height: 70px;
+    border-bottom: #3a3a3a3b 1px solid;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content:left;
+    box-sizing: border-box;
+   
+}
+
+
+   #name{
+    margin-top: 20px;
+    padding-left: 15px;
+    direction: ltr;  
+}
+
+.anchore-myname{
+    font-family: "Satisfy", cursive;
+    font-weight: 600;
+    font-size: 25px;
+   text-decoration: none;
+   color: #3A3A3A;
+}
+.anchore-myname:hover{
+    color:#1AE0EC;
+}
+
+.ImgeErea{
+ margin-left: 15px;
+  
+}
+
+.ImgeErea img{
+    direction: ltr;
+    margin-top:10px;
+    width: 40px;
+    height: 50px;
+    border-radius: 100px;
+   
+}
+
+
+
+
+/* כותרת ראשית */
+.heroSection h1{
+    font-size: 80px;
+    font-weight: 900;
+    margin: 0;
+}
+.heroSection p{
+    font-size: 18px;
+    margin: 0 auto;
+    padding: 0 30px;
+    margin-bottom: 40px;
+}
+.heroSection{
+    
+    text-align: center;
+    background-image: url(../images/header-background.png);
+    padding: 70px 0;
+    background-size: cover;
+    background-position: center, center;
+    background-repeat: no-repeat;
+    background-color: #13E8F163;
+    background-blend-mode: multiply;
+        
+  }
+  .Container-projectLinks{
+   display: flex;
+   justify-content: center;
+  }
+ .projectLink {
+    text-decoration: none;
+    background-color: #1AE0EC;
+    font-family: "Heebo", sans-serif ;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 25px;
+    margin: 10px 5px;
+    width: 260px;
+    height: 40px;
+    padding:5px 35px;
+    color: #3A3A3A;
+  }
+
+/* אייקונים */
+.iconsGirdle{ 
+    display: flex;
+    height: 100px;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row-reverse;
+    border-bottom:#00000029 solid 3px;
+    column-gap: 10px;
+
+
+}
+/* תמונת הפרויקט */
+.Picture-Area{
+    height: 700px;
+    background-color: #EBFEFF;
+    /* box-sizing: border-box; */
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+
+/* זכויות */
+.copyrightBar{
+    background: #222;
+    color: #1AE0EC;
+    height: 35px;
+    margin-bottom: 0 ;
+   
+}
+.copy{
+    float: right;
+    padding-right: 10px;
+ 
+}
+.bottomBarName{
+    text-align: left;
+    float: left;
+    padding-left: 10px;
+}
+
+
+
+/* רספונסיביות */
+
+@media (max-width: 1200px) {
+
+     .iconsGirdle{
+        height: 200px;  }
+   
+}
+
+
+@media(max-width:800px){
+ 
+    .HereAnow-picture{
+        width: 500px;
+    }
+    .Picture-Area{
+     height: 500px;
+    }
+    .contactImgLink{
+        width: 20px;
+        height: 20px;
+    }
+    .copyright{ 
+        height: 50px; 
+    }
+    .copy{
+        width: 30%;
+    }
+    .Container-projectLinks{
+     flex-direction: column;
+     align-items: center;
+    }
+}
+
+@media screen and (max-width:678px) {
+    .HereAnow-picture{
+        width: 300px;
+    }
+    .Picture-Area{
+     height: 400px;
+    }
+    .projectLink{
+        display:block ;
+      
+    }
+    .heroSection{
+        padding: 100px 0px;
+    }
+    .heroSection>h1{
+        font-size: 60px;
+    font-weight: 900;
+    }
+    .iconsGirdle{
+        height: 250px;
+    }
+    
+     .copyright{ 
+            height: 65px; 
+        }
+        .copy{
+            width: 60%;
+        }
+      
+}
+
+@media screen and (max-width:500px) {
+    .contactForm input{
+        width: 330px;
+        height: 30px;}
+        #hereAnow{
+            height: 475px;
+          width:360px;
+        }
+        .galleryImg{
+            height: 200px;
+             width: 280px; }
+}

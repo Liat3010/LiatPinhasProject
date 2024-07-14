@@ -1,0 +1,274 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap');
+
+body{
+   
+    background-color: #E5EEFF;
+   
+    
+}
+#pic1{
+    grid-area: pic1;
+}
+
+#pic2{
+    grid-area: pic2;
+}
+
+#discover{
+    grid-area: content;  
+}
+
+#pic3{
+    grid-area: pic3;
+}
+#pic4{
+    grid-area: pic4;
+}
+#pic5{
+    grid-area: pic5;
+}
+#pic6{
+    grid-area: pic6;
+}
+#pic7{
+    grid-area: pic7;
+}
+
+#pic8{
+    grid-area: pic8;
+}
+#form{
+    grid-area: form;
+}
+
+#pic9{
+    grid-area: pic9;
+}
+
+#pic10{
+    grid-area: pic10;
+}
+
+#pic11{
+    grid-area: pic11;
+}
+
+#pic12{
+    grid-area: pic12;
+}
+
+#pic13{
+    grid-area: pic13;
+}
+
+#pic14{
+    grid-area: pic14;
+}
+
+
+.grid-container{
+    margin: 0 auto;
+    height: 1370px;
+    width: 1030px;
+    background-color: #E5EEFF;
+    display: grid;
+    grid-template-areas:
+    'pic1 pic2 content content'
+    'pic3 pic4 content content'
+    'pic5 pic6 pic7 pic8'
+    'form form pic9 pic10'
+    'form form pic11 pic12'
+    'form form pic13 pic14';
+    column-gap: 10px;
+    row-gap: 10px; 
+}
+
+ .pic{
+    width: 250px;
+    height: 220px;
+ } 
+
+   
+
+#discover{
+   width: 510px;
+   height: 450px;
+    text-align: center;
+    background-color: #020253;
+    font-family: "Assistant", sans-serif;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 60px;
+  
+}
+
+#discover >h1{
+font-size:  50px; 
+color: #0EE1DA;
+
+
+}
+#discover >p{
+    color:#F9F9F9;
+    font-size: 18px;
+   
+}
+
+#form{
+    width:510px;
+    height: 680px;
+    direction: rtl;
+    background-color: #8E097C;   
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+#form>h1{
+    font-size: 30px;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: "Assistant", sans-serif;
+    font-weight: bold;
+}
+#form>span{
+    color: #F9F9F9;
+    text-align: center;
+    font-family: "Assistant", sans-serif;
+ 
+}
+.formContant{
+    padding: 20px;
+}
+
+.labelInput{
+   color: #0EE1DA;
+   font-family: "Heebo", sans-serif;
+}
+.labelInput input{
+    width: 400px;
+    height: 30px;
+    border: none;
+    border-bottom: #0EE1DA 4px solid;
+}
+
+.submit{
+    width: 400px;
+    height: 35px;
+    border: none;
+    color: #011560;
+    background-color: #0EE1DA;
+    font-family: "Heebo", sans-serif;
+    font-size: 18px;
+    margin-top: 15px;
+    font-weight: bold;  
+}
+    
+    
+
+#pic1{
+    background-image: url(../images/water\ and\ trees.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#pic2{
+    background-image: url(../images/two\ girls\ in\ sunset.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#pic3{
+    background-image: url(../images/beach\ and\ net.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#pic4{
+    background-image: url(../images/cow.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#pic5{
+    background-image: url(../images/cloudy\ forest\ view.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#pic6{
+    background-image: url(../images/beach\ and\ red\ flag.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#pic7{
+    background-image: url(../images/sunrise.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#pic8{
+    background-image: url(../images/jungle.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#pic9{
+    background-image: url(../images/monkey.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#pic10{
+    background-image: url(../images/man\ in\ orange\ on\ the\ floor.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#pic11{
+    background-image: url(../images/field.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#pic12{
+    background-image: url(../images/train.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+#pic13{
+    background-image: url(../images/golden\ globe.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#pic14{
+    background-image: url(../images/boat\ in\ sea.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+    .grid-container {
+      width: 100%;
+  
+      grid-template-rows: repeat(11, 1fr);
+      grid-template-areas:
+        "content content"
+        "content content"
+        "content content"
+        "pic1 pic2"
+        "pic3 pic4"
+        "pic5 pic6"
+        "pic7 pic8"
+        "form form"
+        "pic9 pic10"
+        "pic11 pic12"
+        "pic13 pic14";
+    }
+  }
