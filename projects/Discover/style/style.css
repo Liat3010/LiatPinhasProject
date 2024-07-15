@@ -83,6 +83,7 @@ body{
     'form form pic13 pic14';
     column-gap: 10px;
     row-gap: 10px; 
+   
 }
 
  .pic{
@@ -256,7 +257,7 @@ color: #0EE1DA;
 @media (max-width: 768px) {
     .grid-container {
       width: 100%;
-      padding: 3px;
+     
   
       grid-template-rows: repeat(11, 1fr);
       grid-template-areas:
