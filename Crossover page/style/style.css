@@ -31,12 +31,29 @@ body{
     box-sizing: border-box;
    
 }
+/* .aNav{
+    font: "Heebo", sans-serif ;
+    text-decoration: none;
+    font-size: 25px;
+    color: #3A3A3A;
+    padding: 10px;
+   
+   } */
 
-
+/* 
    #name{
     margin-top: 20px;
     padding-left: 15px;
     direction: ltr;  
+} */
+#name{
+    margin-top: 15px;
+    padding-top: 0;
+    padding-left: 15px;
+    direction: ltr; 
+    font-family: "Satisfy", cursive;
+    font-weight: 600;
+    font-size: 25px;
 }
 
 .anchore-myname{

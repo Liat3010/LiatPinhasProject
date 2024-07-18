@@ -124,12 +124,17 @@ input {
 }
 
 .icon-image {
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   background-color: #FDBD03;
   padding: 15px;
-  border-radius: 25px;
+  border-radius: 50px;
   box-sizing: border-box;
+  margin: 5px;
+}
+
+a {
+  text-decoration: none;
 }
 
 @media screen and (max-width: 730px) {
@@ -141,9 +146,6 @@ input {
   }
   .labelInput {
     flex-direction: column;
-  }
-  .content {
-    padding: 20px;
   }
   .formContant {
     display: flex;
