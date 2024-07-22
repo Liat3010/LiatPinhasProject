@@ -76,8 +76,8 @@ body{
 
 .grid-container{
     margin: 0 auto;
-    height: 1370px;
-    width: 1030px;
+    height: 1200px;
+    width: 830px;
     /* background-color: #E5EEFF; */
     display: grid;
     grid-template-areas:
@@ -93,15 +93,15 @@ body{
 }
 
  .pic{
-    width: 250px;
-    height: 220px;
+    width: 200px;
+    height: 191px;
  } 
 
    
 
 #discover{
-   width: 510px;
-   height: 450px;
+   width: 410px;
+   height: 392px;
     text-align: center;
     background-color: #020253;
     font-family: "Assistant", sans-serif;
@@ -124,8 +124,8 @@ color: #0EE1DA;
 }
 
 #form{
-    width:510px;
-    height: 680px;
+    width:410px;
+    height: 595px;
     direction: rtl;
     background-color: #8E097C;   
     box-sizing: border-box;
@@ -146,7 +146,7 @@ color: #0EE1DA;
  
 }
 .formContant{
-    padding: 20px;
+    padding: 10px;
 }
 
 .labelInput{
@@ -154,14 +154,14 @@ color: #0EE1DA;
    font-family: "Heebo", sans-serif;
 }
 .labelInput input{
-    width: 400px;
+    width: 350px;
     height: 30px;
     border: none;
     border-bottom: #0EE1DA 4px solid;
 }
 
 .submit{
-    width: 400px;
+    width: 350px;
     height: 35px;
     border: none;
     color: #011560;
@@ -279,4 +279,9 @@ color: #0EE1DA;
         "pic11 pic12"
         "pic13 pic14";
     }
-  }
+    /* .pic{width: 180px;  }
+    #discover{width: 370px;}
+    #form{width: 370px;}
+    .labelInput input{ width: 300px;}
+    .submit{width: 300px;} */
+}
