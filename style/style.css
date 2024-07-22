@@ -131,8 +131,9 @@ input[type="checkbox"] {
 .heroSection{
   
     text-align: center;
-    background-image: url(../images/header-background.png);
-    padding: 70px 0;
+    /* background-image: url(../images/header-background.png); */
+    padding: 100px 0;
+    background: linear-gradient(to left, #13E8F163 30%,rgb(236, 144, 236) ),url(../images/header-background.png);
     background-size: cover;
     background-position: center, center;
     background-repeat: no-repeat;
