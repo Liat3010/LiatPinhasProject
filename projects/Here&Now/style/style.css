@@ -67,6 +67,14 @@ input{
     height: 30px;
     margin-left: 20px;
 }
+#submit{
+    width: 200px;
+    height: 35px;
+    background-color: #FFFFFF;
+    border: none;
+    color:#2823FD;
+    font-weight:  bolder;"
+}
 
 
 @media screen and (max-width:900px){
