@@ -309,6 +309,8 @@ padding-top: 65px;
 .IconC{
    
     text-align: center;
+    text-decoration: none;
+    color: #222;
 }
 .contactImgLink{
     width: 40px;
